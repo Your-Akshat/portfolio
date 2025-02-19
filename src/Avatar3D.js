@@ -46,8 +46,8 @@ function Avatar3D() {
   const mixer = useRef(); // Animation mixer reference
 
   // Load all three models with animations
-  const firstModel = useLoader(GLTFLoader, '/Avatar/ani.glb');
-  const secondModel = useLoader(GLTFLoader, '/Avatar/flip.glb');
+  const firstModel = useLoader(GLTFLoader, '/Avatar/call_me_animation.glb');
+  const secondModel = useLoader(GLTFLoader, '/Avatar/backflip_animation.glb');
   const thirdModel = useLoader(GLTFLoader, '/Avatar/standing.glb');
 
   // Handle model animation logic
