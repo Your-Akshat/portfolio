@@ -1,40 +1,3 @@
-// import React, { useEffect, useRef } from 'react';
-// import { useLoader, useFrame } from '@react-three/fiber';
-// import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
-// import { AnimationMixer } from 'three';
-
-// function Avatar3D() {
-
-//   const gltf = useLoader(GLTFLoader, '/Avatar/flip.glb'); 
-//   const mixer = useRef();
-  
-//   useEffect(() => {
-//     if (gltf.animations.length > 0) {
-//       mixer.current = new AnimationMixer(gltf.scene); 
-//       gltf.animations.forEach((clip) => {
-//         mixer.current.clipAction(clip).play(); 
-//       });
-//     }
-//   }, [gltf]);
-  
-//   useFrame((state, delta) => {
-//     if (mixer.current) {
-//       mixer.current.update(delta); 
-//     }
-//   });
-  
-//   return (
-//     <mesh>
-//       <primitive object={gltf.scene} />
-//     </mesh>
-//   );
-
-// }
-
-// export default Avatar3D;
-
-
-
 import React, { useState, useEffect, useRef } from 'react';
 import { useLoader, useFrame } from '@react-three/fiber';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
@@ -46,9 +9,9 @@ function Avatar3D() {
   const mixer = useRef(); // Animation mixer reference
 
   // Load all three models with animations
-  const firstModel = useLoader(GLTFLoader, '/Avatar/call_me_animation.glb');
-  const secondModel = useLoader(GLTFLoader, '/Avatar/backflip_animation.glb');
-  const thirdModel = useLoader(GLTFLoader, '/Avatar/standing.glb');
+  const firstModel = useLoader(GLTFLoader, '/Assets/Avatar/call_me_animation.glb');
+  const secondModel = useLoader(GLTFLoader, '/Assets/Avatar/backflip_animation.glb');
+  const thirdModel = useLoader(GLTFLoader, '/Assets/Avatar/standing.glb');
 
   // Handle model animation logic
   useEffect(() => {
