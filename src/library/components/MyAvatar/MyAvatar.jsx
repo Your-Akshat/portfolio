@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { PerspectiveCamera } from '@react-three/drei';
-import Avatar3D from '../../Avatar3D';
+import Avatar3D from '../../../Avatar3D';
 
 const CameraControl = () => {
   const cameraRef = useRef();

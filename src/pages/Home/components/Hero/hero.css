@@ -22,7 +22,7 @@
     position: relative;
     z-index: 10; /* Ensure the name is on top */
     font-size: 10rem; /* Adjust size as needed */
-    color: #FFD700; /* Bright yellow */
+    color: #c300ff; /* Bright yellow */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for contrast */
     pointer-events: none; /* Prevent interaction with the background */
 }
