@@ -1,13 +1,13 @@
 import * as THREE from 'three';
 
 export function createGlowingCircle(scene) {
-  const radius = 11;
+  const radius = 12;
   const segments = 64;
   const geometry = new THREE.CircleGeometry(radius, segments);
 
   const material = new THREE.ShaderMaterial({
     uniforms: {
-      glowColor: { value: new THREE.Color(0xffff00) },  // Bright neon purple
+      glowColor: { value: new THREE.Color(0xdd2357) }, 
       intensity: { value: 0.5 },
     },
     vertexShader: `
