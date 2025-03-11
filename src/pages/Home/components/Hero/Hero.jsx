@@ -1,12 +1,12 @@
 import React from "react";
 import MyAvatar from "../../../../library/components/MyAvatar/MyAvatar";
 import GlowCircle from "../../../../library/components/GlowCircle/GlowCircle";
-import ResumeButton from "../../../../library/components/Button/ResumeButton";
+import ResumeButton from "../../../../library/components/ResumeButton/ResumeButton";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="relative h-screen w-full overflow-hidden">
+    <div className="relative h-[99vh] w-full -top-11" id="hero">
       
       {/* Bottom Layer: Glow Circle */}
       <div className="absolute inset-0 z-0">
@@ -23,11 +23,11 @@ const Hero = () => {
 
       <h1 className="z-20 text-3xl pointer-events-none w-full absolute text-yellow-500 font-bold bottom-48 text-center">. . . . . . . .  &nbsp; A PASSIONATE NAIVE</h1>
       
-      <div className="absolute w-full z-[20] bg-white bottom-36 flex justify-center font-bol">
+      {/* <div className="absolute w-full z-[20] bg-white bottom-52 font-bold left-[44rem]">
         <Link to={"https://drive.google.com/file/d/1qFx_b4-rt9tVT_Otzj9PRlK3xPCOgWwx/view"} target="_blank">
           <ResumeButton />
         </Link>
-      </div>
+      </div> */}
 
     </div>
   );
