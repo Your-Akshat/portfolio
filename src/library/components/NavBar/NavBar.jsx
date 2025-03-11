@@ -16,7 +16,6 @@ const NavBar = () => {
                 <a href="#skills" className="px-4">Skills</a>
                 <a href="#certificates" className="px-4">Certificates</a>
                 <a href="#contact" className="px-4">Contact</a>
-                <button className="btn btn-accent">Accent</button>
             </div>
         </div>
     )
