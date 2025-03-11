@@ -158,7 +158,6 @@ const StyledWrapper = styled.div`
     font-size: 24px;
     font-weight: 900;
     line-height: 47px;
-    color: #dae295;
     color: #f8c983;
     border: none;
     border-radius: 12px;
