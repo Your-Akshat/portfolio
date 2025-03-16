@@ -1,5 +1,5 @@
 import React from "react";
-import pic from "../../../../assets/pic.jpg"
+import pic from "../../../../assets/pic.png"
 
 const About = () => {
     return (
@@ -9,7 +9,7 @@ const About = () => {
             <div className="flex justify-evenly items-center px-12 py-10">
 
                 <div className="w-1/3" >
-                    <img src={pic} alt="imageElement" className="rounded-3xl" />
+                    <img src={pic} alt="imageElement" className="rounded-3xl w-96" />
                 </div>
 
                 <div className="w-2/3" >
