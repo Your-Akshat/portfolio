@@ -17,10 +17,10 @@ const Academics = () =>{
                                 body={["CGPA: 8.29"]}
                             />
                         </div>
-                        <hr className="bg-amber-500"/>
+                        <hr className="bg-amber-500 my-0 mx-2"/>
                     </li>
                     <li>
-                        <hr className="bg-amber-500"/>
+                        <hr className="bg-amber-500 mx-2"/>
                         <div className="timeline-end">
                             <Card 
                                 width={"32rem"}
@@ -29,10 +29,10 @@ const Academics = () =>{
                                 body={["Percentage: 92.6%"]}
                             />
                         </div>
-                        <hr className="bg-amber-500"/>
+                        <hr className="bg-amber-500 mx-2"/>
                     </li>
                     <li>
-                        <hr className="bg-amber-500" />
+                        <hr className="bg-amber-500 mx-2" />
                         <div className="timeline-start">
                             <Card 
                                 width={"32rem"}
@@ -41,7 +41,6 @@ const Academics = () =>{
                                 body={["Percentage: 93.4%"]}
                             />
                         </div>
-                        <hr className="bg-amber-500"/>
                     </li>
                 </ul>
             </div>
