@@ -3,7 +3,7 @@ import Card from "../../../../library/commons/Card";
 
 const Experience = () =>{
     return(
-        <div id="experience" className="w-full h-screen py-24" >
+        <div id="experience" className="w-full py-24" >
             <h1 className="text-center w-full text-6xl font-extrabold text-teal-400">Experience📈</h1>
 
             <div className="pt-12 w-full flex items-center justify-center">
