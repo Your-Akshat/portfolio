@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../../../../library/commons/Card";
+import Card from "../../../../library/commons/Card/Card";
 
 const Experience = () =>{
     return(

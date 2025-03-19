@@ -8,7 +8,7 @@ export function createGlowingCircle(scene) {
   const material = new THREE.ShaderMaterial({
     uniforms: {
       glowColor: { value: new THREE.Color(0xdd2357) }, 
-      intensity: { value: 0.5 },
+      intensity: { value: 0.6 },
     },
     vertexShader: `
       varying vec2 vUv;
