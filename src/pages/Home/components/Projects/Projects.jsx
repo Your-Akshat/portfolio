@@ -10,66 +10,43 @@ const Projects = () => {
                 <div>
                     <Card
                         width={"30rem"}
+                        height={"18rem"}
                         title={"Portfolio Website"}
                         subtitle={"A portfolio website to showcase who I am"}
                         body={[
-                            "Crafted a responsive website tailored to potray everything one needs to know about me professionally",
-                            "Used DaisyUI along with tailwindCSS and React.js for smooth design flow",
+                            "Built a portfolio website using React.js, TailwindCSS, and Daisy UI to showcase projects and technical expertise.",
+                            "Designed & implemented an interface leveraging reusable components and responsive design.",
                         ]}
-                        link={"/"}
-                        linkText={"website"}
+                        link={"/#hero"}
+                        linkText={"Visit the website"}
                     />
                 </div>
                 <div>
                     <Card
                         width={"30rem"}
-                        title={"Portfolio Website"}
-                        subtitle={"A portfolio website to showcase who I am"}
+                        height={"18rem"}
+                        title={"Travelite"}
+                        subtitle={"An Easy-To-Use Expense-Splitting Platform"}
                         body={[
-                            "Crafted a responsive website tailored to potray everything one needs to know about me professionally",
-                            "Used DaisyUI along with tailwindCSS and React.js for smooth design flow",
+                            "Designed and developed a platform for group tours to manage and split expenses efficiently.",
+                            "Used HTML, CSS, Tailwind, and JavaScript to create a responsive, user-friendly interface."
                         ]}
-                        link={"/"}
-                        linkText={"website"}
+                        link={"https://your-akshat.github.io/Travelite/"}
+                        linkText={"Visit the website"}
                     />
                 </div>
                 <div>
                     <Card
                         width={"30rem"}
-                        title={"Portfolio Website"}
-                        subtitle={"A portfolio website to showcase who I am"}
+                        height={"18rem"}
+                        title={"Chinar Public School"}
+                        subtitle={"A Proposal Website For A School"}
                         body={[
-                            "Crafted a responsive website tailored to potray everything one needs to know about me professionally",
-                            "Used DaisyUI along with tailwindCSS and React.js for smooth design flow",
+                            "Crafted a proposal website as a tribute to my alma mater, showcasing foundational front-end development skills.",
+                            "Designed and implemented a web interface to enhance understanding of HTML & CSS principles."
                         ]}
-                        link={"/"}
-                        linkText={"website"}
-                    />
-                </div>
-                <div>
-                    <Card
-                        width={"30rem"}
-                        title={"Portfolio Website"}
-                        subtitle={"A portfolio website to showcase who I am"}
-                        body={[
-                            "Crafted a responsive website tailored to potray everything one needs to know about me professionally",
-                            "Used DaisyUI along with tailwindCSS and React.js for smooth design flow",
-                        ]}
-                        link={"/"}
-                        linkText={"website"}
-                    />
-                </div>
-                <div>
-                    <Card
-                        width={"30rem"}
-                        title={"Portfolio Website"}
-                        subtitle={"A portfolio website to showcase who I am"}
-                        body={[
-                            "Crafted a responsive website tailored to potray everything one needs to know about me professionally",
-                            "Used DaisyUI along with tailwindCSS and React.js for smooth design flow",
-                        ]}
-                        link={"/"}
-                        linkText={"website"}
+                        link={"https://your-akshat.github.io/Chinar-Public-School/"}
+                        linkText={"Visit the website"}
                     />
                 </div>
             </div>
