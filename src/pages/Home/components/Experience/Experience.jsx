@@ -1,9 +1,14 @@
 import React from "react";
 import Card from "../../../../library/commons/Card/Card";
+import ResumeButton from "../../../../library/components/ResumeButton/ResumeButton"
 
 const Experience = () =>{
+    const clickCalled = () => {
+        console.log("Function recieved");
+    }
+
     return(
-        <div id="experience" className="w-full py-24" >
+        <div id="experience" className="w-full pt-24 pb-20" >
             <h1 className="text-center w-full text-6xl font-extrabold text-teal-400">Experience📈</h1>
 
             <div className="pt-12 w-full flex items-center justify-center">
@@ -15,6 +20,10 @@ const Experience = () =>{
                 "Designing and implementing admin panel pages, integrating APIs, and enhancing functionality for both the admin panel and user-facing website, improving overall performance and user experience.",
                 "Developing responsive, user-friendly web pages using React.js, JavaScript, SCSS, and MUI, ensuring seamless cross-device functionality and intuitive navigation."]} 
                 />
+            </div>
+
+            <div className="w-full pt-16 flex justify-center items-center">
+                <ResumeButton clickAction={clickCalled} />
             </div>
 
         </div>
