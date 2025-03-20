@@ -20,7 +20,7 @@ const Experience = () =>{
             </div>
 
             <div className="w-full pt-16 flex justify-center items-center">
-                <ResumeButton />
+                <ResumeButton link={"https://drive.google.com/file/d/1qFx_b4-rt9tVT_Otzj9PRlK3xPCOgWwx/view"} />
             </div>
 
         </div>

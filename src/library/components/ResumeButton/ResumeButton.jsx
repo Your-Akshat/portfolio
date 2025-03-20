@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const ResumeButton = () => {
+const ResumeButton = ({link}) => {
   return (
     <StyledWrapper>
-      <a href="https://www.google.com">
+      <a href={link} target='_blank' rel='nooperner noreferrer'>
         <div className="container-button">
           <div className="hover bt-1" />
           <div className="hover bt-2" />
