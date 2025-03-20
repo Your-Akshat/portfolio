@@ -25,7 +25,7 @@ const StyledWrapper = styled.div`
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "bt-1 bt-2 bt-3"
       "bt-4 bt-5 bt-6";
-    position: absolute;
+    position: relative;
     perspective: 800;
     padding: 0;
     width: 135px;
@@ -158,7 +158,7 @@ const StyledWrapper = styled.div`
     font-size: 24px;
     font-weight: 900;
     line-height: 47px;
-    color: #f8c983;
+    color: #f5ca3c;
     border: none;
     border-radius: 12px;
     transition: all 0.3s ease-in-out;
