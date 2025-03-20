@@ -3,9 +3,6 @@ import Card from "../../../../library/commons/Card/Card";
 import ResumeButton from "../../../../library/components/ResumeButton/ResumeButton"
 
 const Experience = () =>{
-    const clickCalled = () => {
-        console.log("Function recieved");
-    }
 
     return(
         <div id="experience" className="w-full pt-24 pb-20" >
@@ -23,7 +20,7 @@ const Experience = () =>{
             </div>
 
             <div className="w-full pt-16 flex justify-center items-center">
-                <ResumeButton clickAction={clickCalled} />
+                <ResumeButton />
             </div>
 
         </div>

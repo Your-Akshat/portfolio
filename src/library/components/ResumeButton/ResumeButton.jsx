@@ -1,19 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const ResumeButton = ({clickAction}) => {
+const ResumeButton = () => {
   return (
     <StyledWrapper>
-      <div className="container-button">
-      {/* <div className="container-button" onClick={()=>clickAction()}> */}
-        <div className="hover bt-1" />
-        <div className="hover bt-2" />
-        <div className="hover bt-3" />
-        <div className="hover bt-4" />
-        <div className="hover bt-5" />
-        <div className="hover bt-6" />
-        <button />
-      </div>
+      <a href="https://www.google.com">
+        <div className="container-button">
+          <div className="hover bt-1" />
+          <div className="hover bt-2" />
+          <div className="hover bt-3" />
+          <div className="hover bt-4" />
+          <div className="hover bt-5" />
+          <div className="hover bt-6" />
+          <button />
+        </div>
+      </a>
     </StyledWrapper>
   );
 }
