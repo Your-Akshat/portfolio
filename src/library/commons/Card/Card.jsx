@@ -20,7 +20,7 @@ const Card = ({width, title, subtitle, body, link, linkText, route}) => {
                                 )}
                             </ul>
                             )}
-                            <a href={link}>{linkText}</a>
+                            <a href={link} className="text-center">{linkText}</a>
                         </div>
                     </Link>
                 </div>
