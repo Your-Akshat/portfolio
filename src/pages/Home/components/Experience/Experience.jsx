@@ -5,7 +5,7 @@ import ResumeButton from "../../../../library/components/ResumeButton/ResumeButt
 const Experience = () =>{
 
     return(
-        <div id="experience" className="w-full pt-24 pb-20" >
+        <div id="experience" className="w-full pt-24 pb-16" >
             <h1 className="text-center w-full text-6xl font-extrabold text-teal-400">Experience📈</h1>
 
             <div className="pt-12 w-full flex items-center justify-center">
