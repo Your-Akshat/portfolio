@@ -13,7 +13,7 @@ const Experience = () =>{
                 width={"60rem"}
                 title={"Web Developer Intern"}
                 subtitle={"@The Golden Era Of Jainism (Nov'24 - present)"}
-                body={["Collaborating with a team of professional developers to build the organization’s website from scratch, focusing on both the admin panel and user-facing features for a platform offering information on Jain temples, literature,blogs, and history.", 
+                body={["Collaborating with a team of professional developers to build the organization’s website from scratch, focusing on both the admin panel and user-facing features for a platform offering information on Jain temples, literature, blogs, and history.", 
                 "Designing and implementing admin panel pages, integrating APIs, and enhancing functionality for both the admin panel and user-facing website, improving overall performance and user experience.",
                 "Developing responsive, user-friendly web pages using React.js, JavaScript, SCSS, and MUI, ensuring seamless cross-device functionality and intuitive navigation."]} 
                 />
