@@ -1,0 +1,57 @@
+import React from "react";
+import Card from "../../../../library/commons/Card/Card"
+
+const Projects = () => {
+    return(
+        <div id="projects" className="w-full py-24 px-10">
+            <h1 className="text-center w-full text-6xl font-extrabold text-teal-400">Projects✨</h1>
+
+            <div className="pt-12 w-full flex items-center justify-evenly gap-8 flex-wrap">
+                <div>
+                    <Card
+                        width={"30rem"}
+                        height={"18rem"}
+                        title={"Portfolio Website"}
+                        subtitle={"A portfolio website to showcase who I am"}
+                        body={[
+                            "Built a portfolio website using React.js, TailwindCSS, and Daisy UI to showcase projects and technical expertise.",
+                            "Designed & implemented an interface leveraging reusable components and responsive design.",
+                        ]}
+                        link={"/#hero"}
+                        linkText={"Visit the website"}
+                    />
+                </div>
+                <div>
+                    <Card
+                        width={"30rem"}
+                        height={"18rem"}
+                        title={"Travelite"}
+                        subtitle={"An Easy-To-Use Expense-Splitting Platform"}
+                        body={[
+                            "Designed and developed a platform for group tours to manage and split expenses efficiently.",
+                            "Used HTML, CSS, Tailwind, and JavaScript to create a responsive, user-friendly interface."
+                        ]}
+                        link={"https://your-akshat.github.io/Travelite/"}
+                        linkText={"Visit the website"}
+                    />
+                </div>
+                <div>
+                    <Card
+                        width={"30rem"}
+                        height={"18rem"}
+                        title={"Chinar Public School"}
+                        subtitle={"A Proposal Website For A School"}
+                        body={[
+                            "Crafted a proposal website as a tribute to my alma mater, showcasing foundational front-end development skills.",
+                            "Designed and implemented a web interface to enhance understanding of HTML & CSS principles."
+                        ]}
+                        link={"https://your-akshat.github.io/Chinar-Public-School/"}
+                        linkText={"Visit the website"}
+                    />
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Projects;
