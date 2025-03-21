@@ -14,7 +14,7 @@ import JS from "../../../../assets/logos/JS.png"
 
 const Skills = () => {
     return(
-        <div id="skills" className="w-full pt-24 pb-16 px-10 h-[100vh]">
+        <div id="skills" className="w-full pt-24 pb-16 px-10">
             <h1 className="text-center w-full font-extrabold text-teal-400 text-6xl">Skills👨🏻‍💻</h1>
 
             <div className="pt-16">
