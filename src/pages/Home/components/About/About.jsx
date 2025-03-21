@@ -20,7 +20,7 @@ const About = () => {
                             <li className="pb-4">✨<b> Creative Development</b> – I enjoy crafting modern web applications with interactive and engaging features.</li>
                             <li className="pb-4">🌟<b> Problem-Solving Mindset</b> – Challenges excite me! I approach complex problems analytically, always seeking efficient solutions.</li>
                             <li className="pb-4">📚<b> Lifelong Learning</b> – Whether it’s mastering React.js or diving deep into concepts of Data Structures and Algorithms, I constantly expand my skill set.</li>
-                            <li className="pb-4">🏆<b> Academic Excellence</b> – I ranked in the top percentile of JEE Mains, showcasing my analytical and mathematical strengths (100/100 in CBSE Class 10 Math).</li>
+                            <li className="pb-4">🏆<b> Academic Excellence</b> – I ranked in the top percentile of JEE Mains, demonstrating my strong analytical and problem-solving abilities.</li>
                         </ul>
                     </div>
 

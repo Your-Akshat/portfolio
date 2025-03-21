@@ -14,7 +14,7 @@ const Academics = () =>{
                                 width={"32rem"}
                                 title={"B.Tech - Electronics & Communication Engineering"}
                                 subtitle={"Indian Institute of Information Technology(IIIT) Kota"}
-                                body={["CGPA: 8.29"]}
+                                body={["Current CGPA: 8.29"]}
                             />
                         </div>
                         <hr className="bg-amber-500 my-0 mx-2"/>

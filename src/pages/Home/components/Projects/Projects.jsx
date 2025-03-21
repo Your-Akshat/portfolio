@@ -14,7 +14,7 @@ const Projects = () => {
                         title={"Portfolio Website"}
                         subtitle={"A portfolio website to showcase who I am"}
                         body={[
-                            "Built a portfolio website using React.js, TailwindCSS, and Daisy UI to showcase projects and technical expertise.",
+                            "Built a portfolio website using React.js, TailwindCSS, and DaisyUI to showcase projects and technical expertise.",
                             "Designed & implemented an interface leveraging reusable components and responsive design.",
                         ]}
                         link={"/#hero"}
@@ -29,7 +29,7 @@ const Projects = () => {
                         subtitle={"An Easy-To-Use Expense-Splitting Platform"}
                         body={[
                             "Designed and developed a platform for group tours to manage and split expenses efficiently.",
-                            "Used HTML, CSS, Tailwind, and JavaScript to create a responsive, user-friendly interface."
+                            "Used HTML, TailwindCSS, and JavaScript to create a responsive, user-friendly interface."
                         ]}
                         link={"https://your-akshat.github.io/Travelite/"}
                         linkText={"Visit the website"}
