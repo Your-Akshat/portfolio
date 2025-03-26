@@ -3,7 +3,7 @@ import Card from "../../../../library/commons/Card/Card";
 
 const Certifications = () => {
     return(
-        <div id="certificates" className="w-full pt-24 pb-16 px-16">
+        <div id="certificates" className="w-full pt-24 pb-16 px-10">
             <h1 className="w-full text-6xl text-center font-extrabold text-teal-400">Certifications and Achievements🏆</h1>
 
             <div className="pt-12 flex gap-8 justify-evenly items-center flex-wrap w-full">
