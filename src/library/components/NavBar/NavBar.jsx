@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
     return (
-        <div className="w-full sticky top-0 z-50 text-[#ff9923] font-bold flex justify-between py-6 px-9">
+        <div className="w-full sticky top-0 z-50 text-[#ff9923] font-bold flex justify-between py-6 px-9 bg-[rgba(8,48,75,0.5)]">
             <div>
                 abczyx
             </div>
