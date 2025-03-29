@@ -14,7 +14,7 @@ const Projects = () => {
                         title={"Portfolio Website"}
                         subtitle={"A portfolio website to showcase who I am"}
                         body={[
-                            "Built a portfolio website using React.js, TailwindCSS, and DaisyUI to showcase projects and technical expertise.",
+                            "Built a portfolio website using React.js, TailwindCSS, daisyUI and EmailJS to showcase projects and technical expertise.",
                             "Designed & implemented an interface leveraging reusable components and responsive design.",
                         ]}
                         link={"/#hero"}
@@ -31,7 +31,7 @@ const Projects = () => {
                             "Designed and developed a platform for group tours to manage and split expenses efficiently.",
                             "Used HTML, TailwindCSS, and JavaScript to create a responsive, user-friendly interface."
                         ]}
-                        link={"https://your-akshat.github.io/Travelite/"}
+                        link={"https://travelite-peach.vercel.app/"}
                         linkText={"Visit the website"}
                     />
                 </div>
@@ -45,7 +45,7 @@ const Projects = () => {
                             "Crafted a proposal website as a tribute to my alma mater, demonstarting foundational front-end development skills.",
                             "Designed and developed a web interface, showcasing proficiency in HTML and CSS principles."
                         ]}
-                        link={"https://your-akshat.github.io/Chinar-Public-School/"}
+                        link={"https://chinar-public-school.vercel.app/"}
                         linkText={"Visit the website"}
                     />
                 </div>
