@@ -27,7 +27,7 @@ const About = () => {
                     <div className="pt-8">
                         <span className="font-bold text-4xl mt-8">Beyond Tech</span>
                         
-                        <p className="pt-4 text-lg">✍ I’m enthusiastic about literature and actively involved in poetry. I have participated in events like <b>Avlekha</b> and have had my poems published in the monthly magazine <i>Poem Nazm Aur Hum</i>, blending creativity with expression.</p>
+                        <p className="pt-4 text-lg">✍ I’m enthusiastic about literature and actively involved in poetry. I have participated in events like <span className="font-semibold">Avlekha</span> and have had my poems published in the monthly magazine <i>Poem Nazm Aur Hum</i>, blending creativity with expression.</p>
                     </div>
 
                 </div>
