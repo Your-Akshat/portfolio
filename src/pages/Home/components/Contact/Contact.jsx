@@ -4,7 +4,7 @@ import anime_data from "../../../../assets/anime_data.json";
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-    const [formData, setFormData] = useState({message: "I want to connect"});
+    const [formData, setFormData] = useState({message: "I want to connect...."});
 
     const defaulOptions = {
         loop: true,
@@ -43,7 +43,7 @@ const Contact = () => {
 
     return(
         <div id="contact" className="w-full py-24 px-10">
-            <h1 className="text-center w-full text-teal-400 font-extrabold text-6xl">Contact Me📧</h1>
+            <h1 className="text-center w-full text-teal-400 font-extrabold text-6xl">Get in Touch📧</h1>
 
             <div className="pt-6 w-full flex items-start justify-center gap-8 flex-wrap">
                 <div className="w-[38rem] overflow-hidden"  >
@@ -60,9 +60,9 @@ const Contact = () => {
                         <input type="email" name="email" className="input bg-gray-200 text-black w-full" placeholder="Email" onChange={handleChange} required autoComplete="off" />
                         
                         <label className="fieldset-label text-base-content font-bold">Message</label>
-                        <textarea name="message" className="input bg-gray-200 text-black w-full min-h-56 resize-none whitespace-pre-wrap text-wrap" value={formData?.message} onChange={handleChange} autoComplete="off" placeholder="Your message" />
+                        <textarea name="message" className="input bg-gray-200 text-black w-full min-h-56 resize-none whitespace-pre-wrap text-wrap" value={formData?.message} onChange={handleChange} autoComplete="off" />
                         
-                        <button type="submit" className="btn mt-4 bg-sky-700 border border-sky-700">Send</button>
+                        <button type="submit" className="btn mt-4 bg-sky-700 border border-sky-700">Send Message</button>
                         </fieldset>
                     </form>
                 </div>
