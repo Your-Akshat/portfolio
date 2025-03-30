@@ -31,6 +31,13 @@ const Certifications = () => {
                     linkText={"View Certificate"}
                     link={"https://drive.google.com/file/d/1AleoJcSAZiM7WoGpmbbLJYnTm2ctDEHF/view?usp=sharing"}
                 />
+                <Card 
+                    width={"35rem"}
+                    height={"14.5rem"}
+                    title={"Avlekha, Stavya 2024"}
+                    subtitle={"Winner - Poetry Competition"}
+                    body={["Secured 1st place in the Poetry Competition 'Avlekha' held during Stavya 2024, the cultural fest at IIIT Vadodara"]}
+                />
             </div>
         </div>
     );
