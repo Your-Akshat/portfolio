@@ -1,10 +1,16 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import Lottie from "react-lottie";
 import anime_data from "../../../../assets/anime_data.json";
-import emailjs from '@emailjs/browser';
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
-    const [formData, setFormData] = useState({message: "I want to connect...."});
+    const [formData, setFormData] = useState({
+        name: '',
+        email:'',
+        message: "I want to connect....",
+    });
+
+    const formRef = useRef();
 
     const defaulOptions = {
         loop: true,
@@ -15,29 +21,29 @@ const Contact = () => {
         }
     }
 
-    const sendMail = (e) =>{
+    const handleSubmit = (e) => {
         e.preventDefault();
 
-        // emailjs
-        //     .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData.current, {
-        //         publicKey: 'YOUR_PUBLIC_KEY',
-        //     })
-        //     .then(
-        //         () => {
-        //         console.log('SUCCESS!');
-        //         },
-        //         (error) => {
-        //         console.log('FAILED...', error.text);
-        //         },
-        //     );
+        emailjs
+        .sendForm('service_2cfnmp2', 'template_1xacjtc', formRef.current , 'CBFW2suT-4z_xDAz0')
+        .then(
+            () => {
+            alert('Your message was sent successfully!');
+            },
+            (error) => {
+            alert('FAILED...', error.text);
+            },
+        );
 
-        console.log(formData)
-    };
-
+        setFormData({
+            name: '',
+            email:'',
+            message: '',
+        })
+    }
 
     const handleChange = (e) => {
-        const name = e.target.name;
-        const value = e.target.value;
+        const {name, value} = e.target;
         setFormData((values)=>({...values, [name]: value}));
     }
 
@@ -50,17 +56,17 @@ const Contact = () => {
                     <Lottie options={defaulOptions} isClickToPauseDisabled={true} />
                 </div>
                 <div className="w-[40rem] justify-center items-center flex mt-12">
-                    <form onSubmit={sendMail}>
+                    <form onSubmit={handleSubmit} ref={formRef} >
                         <fieldset className="fieldset w-[32rem] bg-[rgba(3,105,161,0.4)] border border-sky-900 p-4 rounded-box text-lg">
                         
                         <label className="fieldset-label text-base-content font-bold">Name</label>
-                        <input type="name" name="name" className="input bg-gray-200 text-black w-full" placeholder="Name" onChange={handleChange} required autoComplete="off" />
+                        <input type="name" name="name" className="input bg-gray-200 text-black w-full" placeholder="Name" onChange={handleChange} value={formData?.name} required autoComplete="off" />
                         
                         <label className="fieldset-label text-base-content font-bold">Email</label>
-                        <input type="email" name="email" className="input bg-gray-200 text-black w-full" placeholder="Email" onChange={handleChange} required autoComplete="off" />
+                        <input type="email" name="email" className="input bg-gray-200 text-black w-full" placeholder="Email" onChange={handleChange} value={formData?.email} required autoComplete="off" />
                         
                         <label className="fieldset-label text-base-content font-bold">Message</label>
-                        <textarea name="message" className="input bg-gray-200 text-black w-full min-h-56 resize-none whitespace-pre-wrap text-wrap" value={formData?.message} onChange={handleChange} autoComplete="off" />
+                        <textarea name="message" className="input bg-gray-200 text-black w-full min-h-56 resize-none whitespace-pre-wrap text-wrap" value={formData?.message} onChange={handleChange} placeholder="Your message" autoComplete="off" />
                         
                         <button type="submit" className="btn mt-4 bg-sky-700 border border-sky-700">Send Message</button>
                         </fieldset>
