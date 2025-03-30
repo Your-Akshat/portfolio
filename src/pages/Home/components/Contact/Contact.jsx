@@ -43,26 +43,26 @@ const Contact = () => {
 
     return(
         <div id="contact" className="w-full py-24 px-10">
-            <h1 className="text-center w-full text-teal-400 font-extrabold text-6xl">Contact📧</h1>
+            <h1 className="text-center w-full text-teal-400 font-extrabold text-6xl">Contact Me📧</h1>
 
-            <div className="pt-12 w-full flex items-start justify-evenly gap-8 flex-wrap">
-                <div className="w-[35rem] overflow-hidden"  >
+            <div className="pt-6 w-full flex items-start justify-center gap-8 flex-wrap">
+                <div className="w-[38rem] overflow-hidden"  >
                     <Lottie options={defaulOptions} isClickToPauseDisabled={true} />
                 </div>
-                <div className="w-[40rem] justify-center items-center flex mt-8">
+                <div className="w-[40rem] justify-center items-center flex mt-12">
                     <form onSubmit={sendMail}>
-                        <fieldset className="fieldset w-[25rem] bg-base-200 border border-base-300 p-4 rounded-box text-lg">
+                        <fieldset className="fieldset w-[32rem] bg-[rgba(3,105,161,0.4)] border border-sky-900 p-4 rounded-box text-lg">
                         
-                        <label className="fieldset-label">Name</label>
-                        <input type="name" name="name" className="input bg-gray-200 text-black w-full" placeholder="Name" onChange={handleChange} required />
+                        <label className="fieldset-label text-base-content font-bold">Name</label>
+                        <input type="name" name="name" className="input bg-gray-200 text-black w-full" placeholder="Name" onChange={handleChange} required autoComplete="off" />
                         
-                        <label className="fieldset-label">Email</label>
-                        <input type="email" name="email" className="input bg-gray-200 text-black w-full" placeholder="Email" onChange={handleChange} required />
+                        <label className="fieldset-label text-base-content font-bold">Email</label>
+                        <input type="email" name="email" className="input bg-gray-200 text-black w-full" placeholder="Email" onChange={handleChange} required autoComplete="off" />
                         
-                        <label className="fieldset-label">Message</label>
-                        <textarea name="message" className="input bg-gray-200 text-black w-full min-h-56 resize-none whitespace-pre-wrap text-wrap" value={formData?.message} onChange={handleChange} />
+                        <label className="fieldset-label text-base-content font-bold">Message</label>
+                        <textarea name="message" className="input bg-gray-200 text-black w-full min-h-56 resize-none whitespace-pre-wrap text-wrap" value={formData?.message} onChange={handleChange} autoComplete="off" placeholder="Your message" />
                         
-                        <button type="submit" className="btn btn-neutral mt-4">Send</button>
+                        <button type="submit" className="btn mt-4 bg-sky-700 border border-sky-700">Send</button>
                         </fieldset>
                     </form>
                 </div>
