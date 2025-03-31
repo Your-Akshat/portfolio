@@ -48,7 +48,7 @@ const Contact = () => {
     }
 
     return(
-        <div id="contact" className="w-full py-24 px-10">
+        <div id="contact" className="w-full pt-24 px-10">
             <h1 className="text-center w-full text-teal-400 font-extrabold text-6xl">Get in Touch📧</h1>
 
             <div className="pt-6 w-full flex items-start justify-center gap-8 flex-wrap">
