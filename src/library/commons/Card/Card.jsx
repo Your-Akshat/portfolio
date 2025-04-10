@@ -1,9 +1,9 @@
 import React from "react";
 
-const Card = ({width, height, title, subtitle, body,  linkText, link}) => {
+const Card = ({ title, subtitle, body,  linkText, link}) => {
     return(
         <div>
-                <div className="card bg-amber-300 text-red-950 hover:bg-[#f5ca3c] hover:-translate-y-4 hover:shadow-2xl hover:shadow-[rgba(245,202,60,0.6)]" style={{ width: width, height: height }} >
+                <div className="card bg-amber-300 text-red-950 hover:bg-[#f5ca3c] hover:-translate-y-4 hover:shadow-2xl hover:shadow-[rgba(245,202,60,0.6)]" >
                         <div className="card-body text-justify">
                             <h2 className="card-title justify-center text-xl font-semibold">{title}</h2>
                             <h3 className="card-title justify-center text-lg font-semibold">{subtitle}</h3>
