@@ -9,9 +9,8 @@ const Academics = () =>{
             <div className="pt-12 w-full flex items-center justify-center">
                 <ul className="timeline timeline-vertical">
                     <li>
-                        <div className="timeline-start">
+                        <div className="timeline-start w-[32rem]">
                             <Card 
-                                width={"32rem"}
                                 title={"B.Tech - Electronics & Communication Engineering"}
                                 subtitle={"Indian Institute of Information Technology(IIIT) Kota"}
                                 body={["Current CGPA: 8.29"]}
@@ -21,9 +20,8 @@ const Academics = () =>{
                     </li>
                     <li>
                         <hr className="bg-amber-500 mx-2"/>
-                        <div className="timeline-end">
+                        <div className="timeline-end w-[32rem]">
                             <Card 
-                                width={"32rem"}
                                 title={"Higher Secondary/Class-XII (CBSE)"}
                                 subtitle={"Chinar Public School, Alwar(Raj.)"}
                                 body={["Percentage: 92.6%"]}
@@ -33,9 +31,8 @@ const Academics = () =>{
                     </li>
                     <li>
                         <hr className="bg-amber-500 mx-2" />
-                        <div className="timeline-start">
+                        <div className="timeline-start w-[32rem]">
                             <Card 
-                                width={"32rem"}
                                 title={"Secondary/Class-X (CBSE)"}
                                 subtitle={"Chinar Public School, Alwar(Raj.)"}
                                 body={["Percentage: 93.4%"]}
