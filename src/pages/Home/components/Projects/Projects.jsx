@@ -7,10 +7,8 @@ const Projects = () => {
             <h1 className="text-center w-full text-6xl font-extrabold text-teal-400">Projects🗂️</h1>
 
             <div className="pt-12 w-full flex items-center justify-evenly gap-8 flex-wrap">
-                <div>
+                <div className="w-[30rem] h-[18rem]">
                     <Card
-                        width={"30rem"}
-                        height={"18rem"}
                         title={"Portfolio Website"}
                         subtitle={"A portfolio website to showcase who I am"}
                         body={[
@@ -21,24 +19,22 @@ const Projects = () => {
                         linkText={"Visit the website"}
                     />
                 </div>
-                <div>
+
+                <div className="w-[30rem] h-[18rem]">
                     <Card
-                        width={"30rem"}
-                        height={"18rem"}
                         title={"Travelite"}
                         subtitle={"An Easy-To-Use Expense-Splitting Platform"}
                         body={[
                             "Designed and developed a platform for group tours to manage and split expenses efficiently.",
-                            "Used HTML, TailwindCSS, and JavaScript to create a responsive, user-friendly interface."
+                            "Used HTML, TailwindCSS, and JavaScript to create a responsive, user-friendly interface, achieving a perfect 100/100 Lighthouse Score."
                         ]}
                         link={"https://travelite-peach.vercel.app/"}
                         linkText={"Visit the website"}
                     />
                 </div>
-                <div>
+                
+                <div className="w-[30rem] h-[18rem]">
                     <Card
-                        width={"30rem"}
-                        height={"18rem"}
                         title={"Chinar Public School"}
                         subtitle={"A Proposal Website For A School"}
                         body={[
