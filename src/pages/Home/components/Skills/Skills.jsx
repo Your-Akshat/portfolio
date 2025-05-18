@@ -22,7 +22,7 @@ const Skills = () => {
 
                 <div className="flex items-center flex-col pt-10 w-full gap-8">
                     <ul className="w-full">
-                        <div className="flex gap-12 justify-center flex-row items-center">
+                        <div className="flex flex-wrap gap-5 sm:gap-12 justify-center flex-row items-center">
                             <li><img src={html} alt="html" className="h-14 hover:-translate-y-2" /></li>
                             <li><img src={css} alt="css" className="h-14 hover:-translate-y-2" /></li>
                             <li><img src={scss} alt="daisyui" className="h-14 hover:-translate-y-2" /></li>
@@ -33,7 +33,7 @@ const Skills = () => {
                         </div>
                     </ul>
                     <ul className="w-full">
-                        <div className="flex gap-12 justify-center flex-row items-center">
+                        <div className="flex flex-wrap gap-5 sm:gap-12 justify-center flex-row items-center">
                             <li><img src={cpp} alt="C++" className="h-14 hover:-translate-y-2" /></li>
                             <li><img src={JS} alt="JS" className="h-14 hover:-translate-y-2" /></li>
                             <li><img src={mySQL} alt="mySQL" className="h-16 hover:-translate-y-2" /></li>
