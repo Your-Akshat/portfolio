@@ -4,7 +4,7 @@ import Card from "../../../../library/commons/Card/Card";
 const Academics = () =>{
     return(
         <div id="academics" className="w-full py-24" >
-            <h1 className="text-center w-full text-6xl font-extrabold text-teal-400">Academics🎓</h1>
+            <h1 className="text-center w-full text-5xl sm:text-6xl font-extrabold text-teal-400">Academics🎓</h1>
 
             <div className="hidden pt-12 w-full sm:flex items-center justify-center">
                 <ul className="timeline timeline-vertical">

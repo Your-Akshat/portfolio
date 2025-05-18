@@ -6,7 +6,7 @@ const Experience = () =>{
 
     return(
         <div id="experience" className="w-full pt-24 pb-16" >
-            <h1 className="text-center w-full text-5xl md:text-6xl font-extrabold text-teal-400">Experience📈</h1>
+            <h1 className="text-center w-full text-5xl sm:text-6xl font-extrabold text-teal-400">Experience📈</h1>
 
             <div className="pt-12 w-full flex items-center justify-center">
                 <div className="w-80 md:w-[45rem] lg:w-[60rem]">

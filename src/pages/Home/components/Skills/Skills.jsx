@@ -15,7 +15,7 @@ import JS from "../../../../assets/logos/JS.png"
 const Skills = () => {
     return(
         <div id="skills" className="w-full pt-24 pb-16 px-10">
-            <h1 className="text-center w-full font-extrabold text-teal-400 text-6xl">Skills👨🏻‍💻</h1>
+            <h1 className="text-center w-full font-extrabold text-teal-400 text-5xl sm:text-6xl">Skills👨🏻‍💻</h1>
 
             <div className="pt-16">
                 <h3 className="text-yellow-300 text-3xl  w-full text-center font-[Verdana]">The technologies, tools, and skills I work with:</h3>

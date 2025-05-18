@@ -49,7 +49,7 @@ const Contact = () => {
 
     return(
         <div id="contact" className="w-full pt-24 px-10 pb-8">
-            <h1 className="text-center w-full text-teal-400 font-extrabold text-6xl">Get in Touch📧</h1>
+            <h1 className="text-center w-full text-teal-400 font-extrabold text-5xl sm:text-6xl">Get in Touch📧</h1>
 
             <div className="pt-6 w-full flex items-start justify-center flex-wrap xl:gap-8">
                 <div className="md:w-[22rem] lg:w-[26rem] xl:w-[38rem] md:my-auto overflow-hidden"  >
