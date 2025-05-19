@@ -3,7 +3,7 @@ import pic from "../../../../assets/pic.png"
 
 const About = () => {
     return (
-        <div className="relative w-full min-h-screen py-24" id="about">
+        <div className="relative w-full sm:min-h-full 2xl:max-h-fit py-24" id="about">
             <h1 className="text-center w-full text-5xl sm:text-6xl font-extrabold text-teal-400">About Me🚀</h1>
 
             <div className="flex flex-col sm:flex-row sm:justify-evenly items-center sm:px-6 lg:px-20 py-12 text-yellow-200">
