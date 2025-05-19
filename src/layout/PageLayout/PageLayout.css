@@ -1,13 +1,11 @@
 .pageLayoutContainer {
     display: flex;
     justify-content: center;
-    /* overflow: hidden; */
   
     .childContainer {
       width: 100%;
       max-width: 1432px;
       margin: 16px;
-      /* overflow: hidden; */
     }
 }
   
