@@ -63,13 +63,21 @@ const NavBar = () => {
 
             <div ref={menuRef} className={`nav-list lg:hidden text-center w-full font-bold text-xl text-sky-800 bg-[rgb(255,219,112)] ${open ? "absolute" : "hidden"}`}>
                 <ul>
-                    {sections.map((section) => (
+                    {/* {sections.map((section) => (
                         <li key={section} className="py-2">
                             <a href={`#${section}`} onClick={handleLinkClick}>
                                 {section.charAt(0).toUpperCase() + section.slice(1)}
                             </a>
                         </li>
-                    ))}
+                    ))} */}
+                        <li className="py-1"><a href="#hero" onClick={handleLinkClick}>Home</a></li>
+                        <li className="py-1"><a href="#about" onClick={handleLinkClick}>About</a></li>
+                        <li className="py-1"><a href="#experience" onClick={handleLinkClick}>Experience</a></li>
+                        <li className="py-1"><a href="#academics" onClick={handleLinkClick}>Academics</a></li>
+                        <li className="py-1"><a href="#projects" onClick={handleLinkClick}>Projects</a></li>
+                        <li className="py-1"><a href="#skills" onClick={handleLinkClick}>Skills</a></li>
+                        <li className="py-1"><a href="#certificates" onClick={handleLinkClick}>Certificates</a></li>
+                        <li className="py-1"><a href="#contact" onClick={handleLinkClick}>Contact</a></li>
                 </ul>
             </div>
         </div>
