@@ -4,7 +4,7 @@ import Card from "../../../../library/commons/Card/Card";
 const Certifications = () => {
     return(
         <div id="certificates" className="w-full pt-24 pb-16 px-10">
-            <h1 className="w-full text-6xl text-center font-extrabold text-teal-400">Certifications and Achievements🏆</h1>
+            <h1 className="w-full text-5xl sm:text-6xl text-center font-extrabold text-teal-400">Certifications and Achievements🏆</h1>
 
             <div className="pt-12 flex gap-8 justify-evenly items-center flex-wrap w-full">
                 <div className="w-[35rem]">
@@ -39,7 +39,6 @@ const Certifications = () => {
 
                 <div className="w-[35rem] h-[14.5rem]">
                     <Card 
-                        height={"14.5rem"}
                         title={"Avlekha, Stavya 2024"}
                         subtitle={"Winner - Poetry Competition"}
                         body={["Secured 1st place in the Poetry Competition 'Avlekha' held during Stavya 2024, the cultural fest at IIIT Vadodara"]}

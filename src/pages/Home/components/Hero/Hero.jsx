@@ -7,19 +7,19 @@ const Hero = () => {
     <div className="relative h-[99vh] w-full -top-11" id="hero">
       
       {/* Bottom Layer: Glow Circle */}
-      <div className="absolute inset-0 z-0">
+      <div className="hidden xl:block xl:absolute inset-0 justify-center items-center">
         <GlowCircle />
       </div>
 
       {/* Middle Layer: 3D Avatar */}
-      <div className="absolute inset-0 z-10 flex justify-center items-center">
+      <div className="hidden xl:absolute xl:flex inset-0 justify-center items-center">
         <MyAvatar />
       </div>
 
       {/* Top Layer: Name */}
-      <h1 className="absolute z-20 text-[10rem] font-bold bottom-44 drop-shadow-[0_15px_15px_rgba(0,0,0)] text-center w-full pointer-events-none text-teal-300">AKSHAT JAIN</h1>
+      <h1 className="absolute font-bold text-[5rem] md:text-[7rem] lg:text-[10rem] bottom-64 lg:bottom-44 drop-shadow-[0_15px_15px_rgba(0,0,0)] text-center w-full pointer-events-none text-teal-300">AKSHAT JAIN</h1>
 
-      <h1 className="z-20 text-3xl pointer-events-none w-full absolute text-yellow-500 font-bold bottom-48 text-center">. . . . . . . .  &nbsp; A PASSIONATE NAIVE</h1>
+      <h1 className="text-3xl pointer-events-none w-full absolute text-yellow-500 font-bold bottom-48 text-center">. . . . . . &nbsp; A PASSIONATE NAIVE</h1>
 
     </div>
   );
