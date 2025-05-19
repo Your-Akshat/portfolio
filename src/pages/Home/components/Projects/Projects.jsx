@@ -7,7 +7,7 @@ const Projects = () => {
             <h1 className="text-center w-full text-5xl sm:text-6xl font-extrabold text-teal-400">Projects🗂️</h1>
 
             <div className="pt-12 w-full flex items-center justify-evenly gap-8 flex-wrap">
-                <div className="w-[30rem] h-[23rem] sm:h-[18rem]">
+                <div className="w-[30rem] h-fit sm:h-[18rem]">
                     <Card
                         title={"Portfolio Website"}
                         subtitle={"A portfolio website to showcase who I am"}
@@ -20,7 +20,7 @@ const Projects = () => {
                     />
                 </div>
 
-                <div className="w-[30rem] h-[23rem] sm:h-[18rem]">
+                <div className="w-[30rem] h-fit sm:h-[18rem]">
                     <Card
                         title={"Travelite"}
                         subtitle={"An Easy-To-Use Expense-Splitting Platform"}
@@ -33,7 +33,7 @@ const Projects = () => {
                     />
                 </div>
                 
-                <div className="w-[30rem] h-[23rem] sm:h-[18rem]">
+                <div className="w-[30rem] h-fit sm:h-[18rem]">
                     <Card
                         title={"Chinar Public School"}
                         subtitle={"A Proposal Website For A School"}
