@@ -34,43 +34,9 @@
   transform: translateY(-8px) rotate(315deg);
 }
 
-.nav-list{
-  /* transition-property: all;
+/* .nav-list{
+  transition-property: all;
   transition-duration: 5s;
-  transition-timing-function: ease-out; */
+  transition-timing-function: ease-out;
   position: absolute;
-}
-
-/* ---------------------------------------------------- */
-/* .hamburger {
-  top: 50%;
-  left: 92%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  width: 40px;
-  cursor: pointer;
-}
-
-.hamburger div,
-.hamburger::before,
-.hamburger::after {
-  background: #ff9923;
-  content: "";
-  display: block;
-  height: 4px;
-  border-radius: 3px;
-  margin: 5px 0;
-  transition: 0.5s;
-}
-
-.hamburger:hover::before {
-  transform: translateY(12px) rotate(135deg);
-}
-
-.hamburger:hover::after {
-  transform: translateY(-12px) rotate(-135deg);
-}
-
-.hamburger:hover div {
-  transform: scale(0);
 } */
