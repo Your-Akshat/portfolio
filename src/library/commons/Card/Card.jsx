@@ -19,7 +19,7 @@ const Card = ({ title, subtitle, body, linkText, link }) => {
                         </ul>
                     )}
                     <span className="text-center underline text-blue-800 text-sm">
-                        <a href={link} target={link === "/#hero" ? "_self" : "_blank"}>{linkText}</a>
+                        <a href={link} target={link === "/#hero" ? "_self" : "_blank"} rel="noreferrer noopener">{linkText}</a>
                     </span>
                 </div>
             </div>
