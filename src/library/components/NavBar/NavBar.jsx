@@ -61,7 +61,7 @@ const NavBar = () => {
                 </div>
             </div>
 
-            <div ref={menuRef} className={`nav-list lg:hidden text-center w-full font-bold text-xl text-sky-800 bg-[rgb(255,219,112)] ${open ? "absolute" : "hidden"}`}>
+            <div ref={menuRef} className={`nav-list lg:hidden text-center w-full font-bold text-xl text-sky-800 bg-[rgb(255,219,112)] ${open ? "block" : "hidden"}`}>
                 <ul>
                     {/* {sections.map((section) => (
                         <li key={section} className="py-2">
