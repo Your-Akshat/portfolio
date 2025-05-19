@@ -5,23 +5,23 @@ const NavBar = () => {
 
     const [open, setIsOpen] = useState(false);
     const menuRef = useRef(null);
-    const buttonRef = useRef(null);
+    // const buttonRef = useRef(null);
 
     const sections = ["hero", "about", "experience", "academics", "projects", "skills", "certificates", "contact"];
 
     const hamburgerButtonClick = () => {
-        setIsOpen(prev => !prev);
+        setIsOpen(!open);
     }
 
-    // Close menu when clicked outside
     useEffect(() => {
         const handleClickOutside = (event) => {
             if (
                 open &&
                 menuRef.current &&
-                !menuRef.current.contains(event.target) &&
-                buttonRef.current &&
-                !buttonRef.current.contains(event.target)
+                !menuRef.current.contains(event.target) 
+                // &&
+                // buttonRef.current &&
+                // !buttonRef.current.contains(event.target)
             ) {
                 setIsOpen(false);
             }
@@ -31,7 +31,6 @@ const NavBar = () => {
         return () => document.removeEventListener("mousedown", handleClickOutside);
     }, [open]);
 
-    // Close menu when a link is clicked
     const handleLinkClick = () => {
         setIsOpen(false);
     };
