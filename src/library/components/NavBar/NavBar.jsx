@@ -5,7 +5,7 @@ const NavBar = () => {
 
     const [open, setIsOpen] = useState(false);
     const menuRef = useRef(null);
-    // const buttonRef = useRef(null);
+    const hamburgerRef = useRef(null)
 
     const sections = ["hero", "about", "experience", "academics", "projects", "skills", "certificates", "contact"];
 
@@ -18,18 +18,19 @@ const NavBar = () => {
             if (
                 open &&
                 menuRef.current &&
-                !menuRef.current.contains(event.target) 
-                // &&
-                // buttonRef.current &&
-                // !buttonRef.current.contains(event.target)
+                !menuRef.current.contains(event.target) &&
+                hamburgerRef.current &&
+                !hamburgerRef.current.contains(event.target)
             ) {
                 setIsOpen(false);
             }
         };
-        
+
         document.addEventListener("mousedown", handleClickOutside);
-        return () => document.removeEventListener("mousedown", handleClickOutside);
+        return () =>
+            document.removeEventListener("mousedown", handleClickOutside);
     }, [open]);
+
 
     const handleLinkClick = () => {
         setIsOpen(false);
@@ -52,15 +53,17 @@ const NavBar = () => {
                         <a href="#certificates" className="px-4">Certificates</a>
                         <a href="#contact" className="px-4">Contact</a>
                     </div>
-                    <div className="hamburger lg:hidden" onClick={hamburgerButtonClick}>
-                        <div></div>
+                    <div ref={hamburgerRef} className={`hamburger lg:hidden ${open ? "open" : ""}`} onClick={hamburgerButtonClick}>
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
                 </div>
             </div>
-            
-            <div ref={menuRef} className={`lg:hidden transition-all duration-300 ease-in-out ${open ? "block" : "hidden"} w-2/5 right-0 absolute pr-12 pl-4 text-right text-xl bg-[rgba(8,48,75,0.8)]`}>
+
+            <div ref={menuRef} className={`nav-list lg:hidden text-center w-full font-bold text-xl text-sky-800 bg-[rgb(255,219,112)] ${open ? "absolute" : "hidden"}`}>
                 <ul>
-                    {sections.map( (section) => (
+                    {sections.map((section) => (
                         <li key={section} className="py-2">
                             <a href={`#${section}`} onClick={handleLinkClick}>
                                 {section.charAt(0).toUpperCase() + section.slice(1)}
