@@ -12,7 +12,7 @@ const ResumeButton = ({link}) => {
           <div className="hover bt-4" />
           <div className="hover bt-5" />
           <div className="hover bt-6" />
-          <button />
+          <button aria-label='ResumeButton' />
         </div>
       </a>
     </StyledWrapper>
