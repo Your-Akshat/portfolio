@@ -20,7 +20,7 @@ const Skills = () => {
             <div className="pt-16">
                 <h2 className="text-yellow-300 text-3xl  w-full text-center font-[Verdana]">The technologies, tools, and skills I work with:</h2>
 
-                <div className="flex pt-10 w-full mx-auto md:w-5/6 gap-8">
+                <div className="flex pt-10 w-full mx-auto md:w-4/6 gap-8">
                     <ul className="w-full flex flex-wrap gap-5 sm:gap-12 justify-center flex-row items-center">
                         <li><img src={html} alt="html" className="h-14 hover:-translate-y-2" /></li>
                         <li><img src={css} alt="css" className="h-14 hover:-translate-y-2" /></li>
