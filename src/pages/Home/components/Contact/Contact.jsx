@@ -7,7 +7,7 @@ const Contact = () => {
     const [formData, setFormData] = useState({
         name: '',
         email:'',
-        message: "I want to connect....",
+        message: "Hey! Let's catch up....",
     });
 
     const formRef = useRef();
@@ -57,18 +57,25 @@ const Contact = () => {
                 </div>
                 <div className="w-auto justify-center items-center flex mt-12 wrap">
                     <form onSubmit={handleSubmit} ref={formRef} >
-                        <fieldset className="fieldset w-[20rem] lg:w-[32rem] bg-[rgba(3,105,161,0.4)] border border-sky-900 p-4 rounded-box text-lg">
+                        <fieldset className="w-[20rem] lg:w-[32rem] bg-[rgba(3,105,161,0.4)] border border-sky-900 p-4 rounded-md text-lg">
                         
-                        <label className="fieldset-label text-base-content font-bold">Name</label>
-                        <input type="name" name="name" className="input bg-gray-200 text-black w-full" placeholder="Name" onChange={handleChange} value={formData?.name} required autoComplete="off" />
+                        <div>
+                            <label className="font-semibold text-blue-100">Name</label>
+                            <input type="name" name="name" className="p-1 text-lg rounded-md bg-gray-200 text-black w-full" placeholder="Name" onChange={handleChange} value={formData?.name} required 
+                            autoComplete="off" />
+                        </div>
                         
-                        <label className="fieldset-label text-base-content font-bold">Email</label>
-                        <input type="email" name="email" className="input bg-gray-200 text-black w-full" placeholder="Email" onChange={handleChange} value={formData?.email} required autoComplete="off" />
-                        
-                        <label className="fieldset-label text-base-content font-bold">Message</label>
-                        <textarea name="message" className="input bg-gray-200 text-black w-full min-h-56 resize-none whitespace-pre-wrap text-wrap" value={formData?.message} onChange={handleChange} placeholder="Your message" autoComplete="off" />
-                        
-                        <button type="submit" className="btn mt-4 bg-sky-700 border border-sky-700">Send Message</button>
+                        <div className="mt-2">
+                            <label className="font-semibold text-blue-100">Email</label>
+                            <input type="email" name="email" className="p-1 text-lg rounded-md bg-gray-200 text-black w-full" placeholder="Email" onChange={handleChange} value={formData?.email} required autoComplete="off" />
+                        </div>
+
+                        <div className="mt-2">
+                            <label className="font-semibold text-blue-100">Message</label>
+                            <textarea name="message" className="p-1 text-lg rounded-md bg-gray-200 text-black w-full min-h-56 resize-none whitespace-pre-wrap text-wrap" value={formData?.message} onChange={handleChange} placeholder="Your message" autoComplete="off" />
+                        </div>
+
+                        <button type="submit" className="w-full text-white font-[500] py-1 mt-4 bg-sky-700 rounded-md">Send Message</button>
                         </fieldset>
                     </form>
                 </div>
