@@ -31,10 +31,9 @@ module.exports = {
   content: [
     './src/**/*.{js,jsx,ts,tsx}',
     './public/index.html',
-    // './safelist.txt', // Include the safelist file
   ],
   theme: {
     extend: {},
   },
-  plugins: [require('daisyui')],
+  plugins: [],
 };
