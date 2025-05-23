@@ -1,0 +1,15 @@
+card
+card-body
+bg-amber-300
+text-red-950
+hover:bg-[#f5ca3c]
+hover:-translate-y-4
+hover:shadow-2xl
+hover:shadow-[rgba(245,202,60,0.6)]
+text-center
+underline
+text-blue-800
+text-sm
+list-disc
+list-inside
+font-semibold
