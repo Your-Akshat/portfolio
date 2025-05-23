@@ -4,15 +4,15 @@ import styled from 'styled-components';
 const ResumeButton = ({link}) => {
   return (
     <StyledWrapper>
-      <a href={link} target='_blank' rel='nooperner noreferrer'>
-        <div className="container-button">
+      <a href={link} target='_blank' rel='nooperner noreferrer' aria-label='Click to view my resume'>
+        <div className="container-button" aria-label='ResumeButton'>
           <div className="hover bt-1" />
           <div className="hover bt-2" />
           <div className="hover bt-3" />
           <div className="hover bt-4" />
           <div className="hover bt-5" />
           <div className="hover bt-6" />
-          <button />
+          <button aria-label='ResumeButton' />
         </div>
       </a>
     </StyledWrapper>

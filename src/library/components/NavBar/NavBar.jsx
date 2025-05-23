@@ -7,8 +7,6 @@ const NavBar = () => {
     const menuRef = useRef(null);
     const hamburgerRef = useRef(null)
 
-    const sections = ["hero", "about", "experience", "academics", "projects", "skills", "certificates", "contact"];
-
     const hamburgerButtonClick = () => {
         setIsOpen(!open);
     }

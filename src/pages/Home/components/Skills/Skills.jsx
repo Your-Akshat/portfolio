@@ -18,28 +18,22 @@ const Skills = () => {
             <h1 className="text-center w-full font-extrabold text-teal-400 text-5xl sm:text-6xl">Skills👨🏻‍💻</h1>
 
             <div className="pt-16">
-                <h3 className="text-yellow-300 text-3xl  w-full text-center font-[Verdana]">The technologies, tools, and skills I work with:</h3>
+                <h2 className="text-yellow-300 text-3xl  w-full text-center font-[Verdana]">The technologies, tools, and skills I work with:</h2>
 
-                <div className="flex items-center flex-col pt-10 w-full gap-8">
-                    <ul className="w-full">
-                        <div className="flex flex-wrap gap-5 sm:gap-12 justify-center flex-row items-center">
-                            <li><img src={html} alt="html" className="h-14 hover:-translate-y-2" /></li>
-                            <li><img src={css} alt="css" className="h-14 hover:-translate-y-2" /></li>
-                            <li><img src={scss} alt="daisyui" className="h-14 hover:-translate-y-2" /></li>
-                            <li><img src={react} alt="react" className="h-14 hover:-translate-y-2" /></li>
-                            <li><img src={MUI} alt="MUI" className="h-14 hover:-translate-y-2" /></li>
-                            <li><img src={tailwindCSS} alt="tailwindCSS" className="h-14 hover:-translate-y-2" /></li>
-                            <li><img src={daisyui} alt="daisyui" className="h-14 hover:-translate-y-2" /></li>
-                        </div>
-                    </ul>
-                    <ul className="w-full">
-                        <div className="flex flex-wrap gap-5 sm:gap-12 justify-center flex-row items-center">
-                            <li><img src={cpp} alt="C++" className="h-14 hover:-translate-y-2" /></li>
-                            <li><img src={JS} alt="JS" className="h-14 hover:-translate-y-2" /></li>
-                            <li><img src={mySQL} alt="mySQL" className="h-16 hover:-translate-y-2" /></li>
-                            <li><img src={github} alt="github" className="h-14 hover:-translate-y-2" /></li>
-                            <li><img src={git} alt="git" className="h-14 hover:-translate-y-2" /></li>
-                        </div>
+                <div className="flex pt-10 w-full mx-auto md:w-5/6 gap-8">
+                    <ul className="w-full flex flex-wrap gap-5 sm:gap-12 justify-center flex-row items-center">
+                        <li><img src={html} alt="html" className="h-14 hover:-translate-y-2" /></li>
+                        <li><img src={css} alt="css" className="h-14 hover:-translate-y-2" /></li>
+                        <li><img src={scss} alt="daisyui" className="h-14 hover:-translate-y-2" /></li>
+                        <li><img src={react} alt="react" className="h-14 hover:-translate-y-2" /></li>
+                        <li><img src={MUI} alt="MUI" className="h-14 hover:-translate-y-2" /></li>
+                        <li><img src={tailwindCSS} alt="tailwindCSS" className="h-14 hover:-translate-y-2" /></li>
+                        <li><img src={daisyui} alt="daisyui" className="h-14 hover:-translate-y-2" /></li>
+                        <li><img src={cpp} alt="C++" className="h-14 hover:-translate-y-2" /></li>
+                        <li><img src={JS} alt="JS" className="h-14 hover:-translate-y-2" /></li>
+                        <li><img src={mySQL} alt="mySQL" className="h-16 hover:-translate-y-2" /></li>
+                        <li><img src={github} alt="github" className="h-14 hover:-translate-y-2" /></li>
+                        <li><img src={git} alt="git" className="h-14 hover:-translate-y-2" /></li>
                     </ul>
                 </div>
             </div>
