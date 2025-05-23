@@ -12,7 +12,7 @@ const Projects = () => {
                         title={"Portfolio Website"}
                         subtitle={"A portfolio website to showcase who I am"}
                         body={[
-                            "Built a portfolio website using React.js, TailwindCSS, daisyUI and EmailJS to showcase projects and technical expertise.",
+                            "Built a portfolio website using React.js, TailwindCSS, and EmailJS to showcase projects and technical expertise.",
                             "Designed & implemented an interface leveraging reusable components and responsive design.",
                         ]}
                         link={"/#hero"}
