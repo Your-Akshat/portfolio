@@ -19,12 +19,11 @@ const Card = ({ title, subtitle, body, linkText, link }) => {
                         </ul>
                     )}
                     {linkText!= null && link!=null ? 
-                        <span className="text-center underline text-blue-800 text-sm">
+                        <span className="block text-center underline text-blue-800 text-sm mt-2">
                             <a href={link} target={link === "/#hero" ? "_self" : "_blank"} rel="noreferrer noopener">{linkText}</a>
                         </span>
                         : <></>
                     }
-                    {linkText!=null ? console.log("") : console.log(linkText, " -> ", link)}
                 </div>
             </div>
         </div>
