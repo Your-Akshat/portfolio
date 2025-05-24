@@ -24,10 +24,10 @@ To run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Your-Akshat/portfolio.git
 
 # Navigate into the project folder
-cd your-repo-name
+cd portfolio
 
 # Install dependencies
 npm install
