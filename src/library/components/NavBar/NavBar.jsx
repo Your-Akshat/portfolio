@@ -35,10 +35,10 @@ const NavBar = () => {
     };
 
     return (
-        <div className="w-full sticky top-0 z-50 text-[#ff9923] font-bold bg-[rgba(8,48,75,0.5)]">
+        <div className="w-full sticky top-0 z-50 text-[#ff9923] font-bold bg-[rgba(49,79,99,0.5)]">
             <div className="flex justify-between py-6 px-9">
                 <div className="text-sky-200 text-2xl">
-                    <a href="#hero">Your_Akshat</a>
+                    <a href="/">Your_Akshat</a>
                 </div>
                 <div>
                     <div className="hidden lg:block">

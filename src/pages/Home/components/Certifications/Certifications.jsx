@@ -42,7 +42,7 @@ const Certifications = () => {
                         title={"Avlekha, Stavya 2024"}
                         subtitle={"Winner - Poetry Competition"}
                         body={["Secured 1st place in the Poetry Competition 'Avlekha' held during Stavya 2024, the cultural fest at IIIT Vadodara"]}
-                        linkText={"View Post"}
+                        linkText={"View Results"}
                         link={"https://www.instagram.com/p/C5iO7UJy1IY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D"}
                     />
                 </div>

@@ -61,18 +61,18 @@ const Contact = () => {
                         
                         <div>
                             <label className="font-semibold text-blue-100">Name</label>
-                            <input type="name" name="name" className="p-1 text-lg rounded-md bg-gray-200 text-black w-full" placeholder="Name" onChange={handleChange} value={formData?.name} required 
+                            <input type="name" name="name" className="py-1 px-2 text-lg rounded-md bg-gray-200 text-black w-full" placeholder="Name" onChange={handleChange} value={formData?.name} required 
                             autoComplete="off" />
                         </div>
                         
                         <div className="mt-2">
                             <label className="font-semibold text-blue-100">Email</label>
-                            <input type="email" name="email" className="p-1 text-lg rounded-md bg-gray-200 text-black w-full" placeholder="Email" onChange={handleChange} value={formData?.email} required autoComplete="off" />
+                            <input type="email" name="email" className="py-1 px-2 text-lg rounded-md bg-gray-200 text-black w-full" placeholder="Email" onChange={handleChange} value={formData?.email} required autoComplete="off" />
                         </div>
 
                         <div className="mt-2">
                             <label className="font-semibold text-blue-100">Message</label>
-                            <textarea name="message" className="p-1 text-lg rounded-md bg-gray-200 text-black w-full min-h-56 resize-none whitespace-pre-wrap text-wrap" value={formData?.message} onChange={handleChange} placeholder="Your message" autoComplete="off" />
+                            <textarea name="message" className="py-1 px-2 text-lg rounded-md bg-gray-200 text-black w-full min-h-56 resize-none whitespace-pre-wrap text-wrap" value={formData?.message} onChange={handleChange} placeholder="Your message" autoComplete="off" />
                         </div>
 
                         <button type="submit" className="w-full text-white font-[500] py-1 mt-4 bg-sky-700 rounded-md">Send Message</button>
