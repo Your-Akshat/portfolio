@@ -19,9 +19,9 @@ const GlowingCircle = () => {
     const container = document.getElementById('glow-circle-container');
     container.appendChild(renderer.domElement);
 
-    const glowingCircle = createGlowingCircle(scene);
+    createGlowingCircle(scene);
 
-    camera.position.z = 15; // Adjust to ensure the circle is fully visible
+    camera.position.z = 15;
 
     const animate = () => {
       requestAnimationFrame(animate);
