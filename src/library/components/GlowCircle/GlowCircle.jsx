@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import * as THREE from 'three';
-// import { createGlowingCircle } from './createGlowCircle';
+import { createGlowingCircle } from './createGlowCircle';
 
 const GlowingCircle = () => {
   useEffect(() => {
@@ -20,6 +20,7 @@ const GlowingCircle = () => {
     container.appendChild(renderer.domElement);
 
     // const glowingCircle = createGlowingCircle(scene);
+    createGlowingCircle(scene);
 
     camera.position.z = 15; // Adjust to ensure the circle is fully visible
 
