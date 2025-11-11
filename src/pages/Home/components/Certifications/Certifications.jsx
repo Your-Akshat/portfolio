@@ -13,7 +13,7 @@ const Certifications = () => {
                         subtitle={"Certificate of Achievement"}
                         body={["Participated in the 2022 ICPC Asia Mathura Kanpur Regional Contest as a team, showcasing a perfect combination of rigorous coding skills and exceptional team spirit"]}
                         linkText={"View Certificate"}
-                        link={"https://drive.google.com/file/d/1PXnvbTr6zjJgU-ABijSMKKocfbPj3NM1/view?usp=drive_link"}
+                        link={"https://drive.google.com/file/d/1PXnvbTr6zjJgU-ABijSMKKocfbPj3NM1/view"}
                     />
                 </div>
 
@@ -23,7 +23,17 @@ const Certifications = () => {
                         subtitle={"Certificate of Completion"}
                         body={["Completed a two-day Generative AI Mastermind conducted by Outskill, focusing on the application of AI tools for daily activities and an introduction to no-code automation"]}
                         linkText={"View Certificate"}
-                        link={"https://drive.google.com/file/d/1ohw0i_RZXmxh5CE_QZVmZf4QCDdEMRBg/view?usp=drive_link"}
+                        link={"https://drive.google.com/file/d/1ohw0i_RZXmxh5CE_QZVmZf4QCDdEMRBg/view"}
+                    />
+                </div>
+
+                <div  className="w-[35rem] h-fit sm:h-[14.5rem]">
+                    <Card 
+                        title={"Resume Building Workshop by Coding Ninjas"}
+                        subtitle={"Certificate of Completion"}
+                        body={["Attended a workshop on building ATS-friendly, employer-targeted resumes, gaining skills in keyword optimization, and tailoring content to align with specific job descriptions."]}
+                        linkText={"View Certificate"}
+                        link={"https://drive.google.com/file/d/1ezlJPNfOgQVEMezFzCY6mk0RrVUnRCS3/view"}
                     />
                 </div>
 
@@ -33,7 +43,7 @@ const Certifications = () => {
                         subtitle={"Certificate of Merit"}
                         body={["Awarded a Certificate of Merit for achieving a perfect score of 100/100 in Mathematics (Standard) in the Class 10 Board Examinations"]}
                         linkText={"View Certificate"}
-                        link={"https://drive.google.com/file/d/1AleoJcSAZiM7WoGpmbbLJYnTm2ctDEHF/view?usp=sharing"}
+                        link={"https://drive.google.com/file/d/1AleoJcSAZiM7WoGpmbbLJYnTm2ctDEHF/view"}
                     />
                 </div>
 
@@ -43,7 +53,7 @@ const Certifications = () => {
                         subtitle={"Winner - Poetry Competition"}
                         body={["Secured 1st place in the Poetry Competition 'Avlekha' held during Stavya 2024, the cultural fest at IIIT Vadodara"]}
                         linkText={"View Results"}
-                        link={"https://www.instagram.com/p/C5iO7UJy1IY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D"}
+                        link={"https://www.instagram.com/p/C5iO7UJy1IY"}
                     />
                 </div>
             </div>
