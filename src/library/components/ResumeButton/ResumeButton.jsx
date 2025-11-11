@@ -118,7 +118,7 @@ const StyledWrapper = styled.div`
     top: -150%;
     transform: translate(-50%, 0);
     font-size: 34px;
-    color: #f19c2b;
+    color: #3d0008;
   }
 
   button {
@@ -129,7 +129,7 @@ const StyledWrapper = styled.div`
     background: transparent;
     font-size: 17px;
     font-weight: 900;
-    border: 3px solid #f39923;
+    border: 3px solid #381e00;
     border-radius: 12px;
     transition: all 0.3s ease-in-out;
   }
@@ -159,7 +159,7 @@ const StyledWrapper = styled.div`
     font-size: 24px;
     font-weight: 900;
     line-height: 47px;
-    color: #f5ca3c;
+    color: #3f2200;
     border: none;
     border-radius: 12px;
     transition: all 0.3s ease-in-out;

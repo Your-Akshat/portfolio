@@ -15,10 +15,10 @@ import JS from "../../../../assets/logos/JS.png"
 const Skills = () => {
     return(
         <div id="skills" className="w-full pt-24 pb-16 px-10">
-            <h1 className="text-center w-full font-extrabold text-teal-400 text-5xl sm:text-6xl">Skills👨🏻‍💻</h1>
+            <h1 className="text-center w-full font-extrabold text-[#3d0008] text-5xl sm:text-6xl">Skills👨🏻‍💻</h1>
 
             <div className="pt-16">
-                <h2 className="text-yellow-300 text-3xl  w-full text-center font-[Verdana]">The technologies, tools, and skills I work with:</h2>
+                <h2 className="text-[#3f2200] text-3xl  w-full text-center font-[Verdana]">The technologies, tools, and skills I work with:</h2>
 
                 <div className="flex pt-10 w-full mx-auto md:w-4/6 gap-8">
                     <ul className="w-full flex flex-wrap gap-5 sm:gap-12 justify-center flex-row items-center">

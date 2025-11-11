@@ -4,7 +4,7 @@ import Card from "../../../../library/commons/Card/Card";
 const Academics = () =>{
     return(
         <div id="academics" className="w-full py-24" >
-            <h1 className="text-center w-full text-5xl sm:text-6xl font-extrabold text-teal-400">Academics🎓</h1>
+            <h1 className="text-center w-full text-5xl sm:text-6xl font-extrabold text-[#3d0008]">Academics🎓</h1>
 
             <div className="hidden mt-12 sm:block">
                 <ul className="flex gap-4 flex-col max-w-[49rem] mx-auto">
@@ -13,7 +13,7 @@ const Academics = () =>{
                             <Card 
                                 title={"B.Tech - Electronics & Communication Engineering"}
                                 subtitle={"Indian Institute of Information Technology(IIIT) Kota"}
-                                body={["Current CGPA: 8.29"]}
+                                body={["Current CGPA: 8.38"]}
                             />
                         </div>
                     </li>

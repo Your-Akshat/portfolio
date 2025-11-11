@@ -35,13 +35,13 @@ const NavBar = () => {
     };
 
     return (
-        <div className="w-full sticky top-0 z-50 text-[#ff9923] font-bold bg-[rgba(49,79,99,0.5)]">
+        <div className="w-full sticky top-0 z-50 text-[#4b2801] font-bold bg-[rgba(255,230,167,0.4)]">
             <div className="flex justify-between py-6 px-9">
-                <div className="text-sky-200 text-2xl">
+                <div className="text-[#4f000b] text-3xl">
                     <a href="/">Your_Akshat</a>
                 </div>
                 <div>
-                    <div className="hidden lg:block">
+                    <div className="hidden text-lg lg:block">
                         <a href="#hero" className="px-4">Home</a>
                         <a href="#about" className="px-4">About</a>
                         <a href="#experience" className="px-4">Experience</a>
@@ -59,7 +59,7 @@ const NavBar = () => {
                 </div>
             </div>
 
-            <div ref={menuRef} className={`lg:hidden text-center w-full font-bold text-xl text-sky-800 bg-[rgb(255,219,112)] ${open ? "block" : "hidden"}`}>
+            <div ref={menuRef} className={`lg:hidden text-center w-full font-bold text-xl text-sky-800 bg-[rgb(225,241,252)] ${open ? "block" : "hidden"}`}>
                 <ul>
                     <li className="py-1"><a href="#hero" onClick={handleLinkClick}>Home</a></li>
                     <li className="py-1"><a href="#about" onClick={handleLinkClick}>About</a></li>

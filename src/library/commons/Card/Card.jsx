@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ title, subtitle, body, linkText, link }) => {
+const Card = ({ title, subtitle, body, linkText="", link="" }) => {
     return (
         <div className="w-full h-full">
             <div className="rounded-lg bg-amber-300 text-red-950 hover:bg-[#f5ca3c] hover:-translate-y-4 hover:shadow-2xl hover:shadow-[rgba(245,202,60,0.6)] w-full h-full">
@@ -18,11 +18,11 @@ const Card = ({ title, subtitle, body, linkText, link }) => {
                             )}
                         </ul>
                     )}
-                    {linkText!= null && link!=null ? 
+                    {linkText && link ? 
                         <span className="block text-center underline text-blue-800 text-sm mt-2">
                             <a href={link} target={link === "/#hero" ? "_self" : "_blank"} rel="noreferrer noopener">{linkText}</a>
                         </span>
-                        : <></>
+                        : null
                     }
                 </div>
             </div>

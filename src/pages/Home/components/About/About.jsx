@@ -4,9 +4,9 @@ import pic from "../../../../assets/pic.png"
 const About = () => {
     return (
         <div className="relative w-full sm:min-h-full 2xl:max-h-fit py-24" id="about">
-            <h1 className="text-center w-full text-5xl sm:text-6xl font-extrabold text-teal-400">About Me🚀</h1>
+            <h1 className="text-center w-full text-5xl sm:text-6xl font-extrabold text-[#3d0008]">About Me🚀</h1>
 
-            <div className="flex flex-col sm:flex-row sm:justify-evenly items-center sm:px-6 lg:px-20 py-12 text-yellow-200">
+            <div className="flex flex-col sm:flex-row sm:justify-evenly items-center sm:px-6 lg:px-20 py-12 text-[#3f2200]">
 
                 <div className="sm:w-2/5 lg:1/3" >
                     <img src={pic} alt="imageElement" className="rounded-3xl w-80 sm:w-[30rem]" />
