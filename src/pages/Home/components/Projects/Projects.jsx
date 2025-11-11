@@ -9,8 +9,21 @@ const Projects = () => {
             <div className="pt-12 w-full flex items-center justify-evenly gap-8 flex-wrap">
                 <div className="w-[30rem] h-fit sm:h-[18rem]">
                     <Card
+                        title={"Invoice Generator"}
+                        subtitle={"A Simple Invoice Generation Tool For MSEs"}
+                        body={[
+                            "Built a simple tool using React.js, MUI, and SCSS. Implemented Lodash-based throttling to stabilize API calls under heavy load, improving reliability.",
+                            "Added comprehensive Cypress tests for the ”Add Item” modal, covering all user interaction cases and edge conditions to ensure consistent functionality.",
+                        ]}
+                        link={"https://invoice-generator-chi-beryl.vercel.app/"}
+                        linkText={"Visit the website"}
+                    />
+                </div>
+
+                <div className="w-[30rem] h-fit sm:h-[18rem]">
+                    <Card
                         title={"Portfolio Website"}
-                        subtitle={"A portfolio website to showcase who I am"}
+                        subtitle={"A Portfolio Website To Showcase Who I Am"}
                         body={[
                             "Built a portfolio website using React.js, TailwindCSS, and EmailJS to showcase projects and technical expertise.",
                             "Designed & implemented an interface leveraging reusable components and responsive design.",
